@@ -30,7 +30,7 @@ class SeatGeekViewModel @Inject constructor(private val repository: SeatGeekRepo
         viewModelScope.launch {
             val response = repository.getEvents(query)
             if (response.isSuccessful) {
-                _seatGeekLiveData.postValue(response.body().events)
+//                _seatGeekLiveData.postValue(response.body().events)
             } else {
                 Log.d("Response", "Response Error: ${response.code().toString()}")
             }
