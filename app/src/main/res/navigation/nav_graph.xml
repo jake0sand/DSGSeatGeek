@@ -18,5 +18,13 @@
         android:id="@+id/detailsFragment"
         android:name="com.jakey.dsgproject.presentation.details.DetailsFragment"
         android:label="Details"
-        tools:layout="@layout/fragment_details" />
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="argsId"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_detailsFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
 </navigation>

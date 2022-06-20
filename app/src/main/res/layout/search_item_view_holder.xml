@@ -16,17 +16,15 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/iv_search"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
-            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent"
-            app:srcCompat="@mipmap/ic_launcher" />
+            tools:srcCompat="@mipmap/ic_launcher" />
 
         <TextView
             android:id="@+id/tv_title_search"
@@ -34,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
             android:layout_marginTop="16dp"
-            android:text="TextView"
+            tools:text="TextView"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/tv_location_search"
@@ -46,7 +44,7 @@
             android:id="@+id/tv_location_search"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            tools:text="TextView"
             app:layout_constraintBottom_toTopOf="@+id/tv_date_search"
             app:layout_constraintEnd_toEndOf="@+id/tv_title_search"
             app:layout_constraintStart_toStartOf="@+id/tv_title_search"
@@ -57,7 +55,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="TextView"
+            tools:text="TextView"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/tv_title_search"
             app:layout_constraintStart_toStartOf="@id/tv_title_search"

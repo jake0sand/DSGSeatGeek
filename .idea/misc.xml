@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jake/AndroidStudioProjects/DSGProject/app/src/main/res/drawable/custom_edit_text.xml" value="0.317" />
+        <entry key="..\:/Users/Jake/AndroidStudioProjects/DSGProject/app/src/main/res/drawable/ic_cancel.xml" value="0.256" />
         <entry key="..\:/Users/Jake/AndroidStudioProjects/DSGProject/app/src/main/res/drawable/ic_favorite.xml" value="0.294" />
+        <entry key="..\:/Users/Jake/AndroidStudioProjects/DSGProject/app/src/main/res/drawable/ic_search.xml" value="0.256" />
         <entry key="..\:/Users/Jake/AndroidStudioProjects/DSGProject/app/src/main/res/layout/activity_main.xml" value="0.21" />
         <entry key="..\:/Users/Jake/AndroidStudioProjects/DSGProject/app/src/main/res/layout/fragment_details.xml" value="0.33" />
         <entry key="..\:/Users/Jake/AndroidStudioProjects/DSGProject/app/src/main/res/layout/fragment_search.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/Jake/AndroidStudioProjects/DSGProject/app/src/main/res/layout/search_item_view_holder.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Jake/AndroidStudioProjects/DSGProject/app/src/main/res/menu/main_menu.xml" value="0.365625" />
       </map>
     </option>
   </component>
