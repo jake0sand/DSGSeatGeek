@@ -22,12 +22,6 @@ class DetailsViewModel @Inject constructor(private val repository: SeatGeekRepos
     private val _detailsLiveData = MutableLiveData<EventItem?>()
     var detailsLiveData: LiveData<EventItem?> = _detailsLiveData
 
-    fun setIsFavorite(boolean: Boolean) {
-        viewModelScope.launch {
-            _isFavorite.postValue(boolean)
-        }
-    }
-
     fun getSingleEvent(id: Int) {
         viewModelScope.launch {
             val response = repository.getSingleEvent(id)

@@ -88,18 +88,7 @@ class DetailsFragment : Fragment() {
             }
         }
 
-
-//
-//        viewModel.isVisible.observe(viewLifecycleOwner) {
-//            binding.icFavoriteFilled.isVisible = it
-//            binding.icFavoriteFilled.isVisible = it
-//        }
-
         return binding.root
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.main_menu, menu)
     }
 
     override fun onDestroyView() {

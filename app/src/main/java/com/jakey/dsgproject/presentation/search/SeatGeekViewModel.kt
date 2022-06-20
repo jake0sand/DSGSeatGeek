@@ -25,18 +25,6 @@ class SeatGeekViewModel @Inject constructor(private val repository: SeatGeekRepo
 
     }
 
-
-//    fun getEvents(query: String) {
-//        viewModelScope.launch {
-//            val response = repository.getEvents(query)
-//            if (response.isSuccessful) {
-//                _seatGeekLiveData.postValue(response.body()?.events?.map { it.toEventItem() } ?: listOf())
-//            } else {
-//                Log.d("Response", "Response Error: ${response.code().toString()}")
-//            }
-//        }
-//    }
-
     fun getEvents(query: String) {
         viewModelScope.launch {
             val response = repository.getEvents(query)
